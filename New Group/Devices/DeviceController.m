@@ -119,6 +119,7 @@
     if (indexPath.row!=0) {
         DeviceViewCell *cell2 = [[DeviceViewCell alloc]initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:nil];
         return cell2;
+        
     }
     return cell;
     
